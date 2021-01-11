@@ -14,6 +14,7 @@ pada pop up Window `MENU` akan di Bind ke dalam ListBox pada `MainWindow` berupa
 User dapat memilih voucher pada `Voucher` button, saat muncul pop up Window user dapah memilih voucher yang tersedia.
 
 User dapat melihat Subtotal sebelum dikurangi dengan voucher.
+
 User dapat melihat Total keseluruhan setelah dikurang dengan voucher atau tanpa voucher.
 
 kalkulasi perhitungan subtotal pada class `KeranjangBelanja.cs`
