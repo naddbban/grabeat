@@ -1,4 +1,4 @@
-﻿﻿## Grab Eat
+## Grab Eat
 penerapan MVC untuk memudahkan user dalam pemesanan item.
 
 ### SCOPE & FUNCTIONALITIES
