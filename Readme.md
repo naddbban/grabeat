@@ -13,9 +13,71 @@ penerapan MVC untuk memudahkan user dalam pemesanan item.
 
 ### How does it works?
 User memilih makanan pada `MENU` button, kemudian pada pop up Window user bisa memilih menu yg tersedia dengan cara `Double Click` atau `Select Item`
-pada pop up Window `MENU` akan di Bind ke dalam ListBox pada `MainWindow` berupa nama Item dan Harga.
+pada pop up Window `MENU` akan di Bind ke dalam ListBox pada `MainWindow` berupa nama Item dan Harga. 
 
-User dapat memilih voucher pada `Voucher` button, saat muncul pop up Window user dapah memilih voucher yang tersedia.
+berikut cara data bind dari Lisbox `Menu` sinkron dengan Listbox pada `Mainwindow` untuk melakukan perubah setiap terjadi perubahan data.
+
+code dari Menu
+```xaml
+<ListBox x:Name="listMenu" MouseDoubleClick="listMenuOnDoubleClicked" HorizontalAlignment="Left" Width="360" Grid.ColumnSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding item}" TextAlignment="Left" FontSize="16"/>
+                        <TextBlock Grid.Row="0" Text="{Binding price}"  TextAlignment="Right" FontSize="16" Width="250"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+```
+
+```csharp
+ private void listMenuOnDoubleClicked(object sender, MouseButtonEventArgs e)
+        {
+            ListBox listbox = sender as ListBox;
+            Item item = listbox.SelectedItem as Item;
+            this.listener.OnMenuSelected(item);
+
+
+        }
+```
+
+ke MainWnidow
+```xaml
+<ListBox x:Name="listKeranjangBelanja" HorizontalAlignment="Left" Height="236" VerticalAlignment="Top" Width="366" Margin="169,66,0,0" MouseDoubleClick="onlistKeranjangBelanjaDoubleClicked" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="3">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="350" />
+
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Text="{Binding item}" TextAlignment="Left" Width="315"/>
+                        <TextBlock Grid.Row="0" Text="{Binding price}"  TextAlignment="Right" Width="280"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+```
+menghapus data yg telah di bind
+```csharp
+ private void onlistKeranjangBelanjaDoubleClicked(object sender, MouseButtonEventArgs e)
+        {
+            if (MessageBox.Show("Kamu ingin menghapus item ini?",
+                   "Konfirmasi", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                ListBox listBox = sender as ListBox;
+                Item item = listBox.SelectedItem as Item;
+                controller.removeItem(item);
+            }
+        }
+```        
+
+User dapat memilih voucher pada `Voucher` button, saat muncul pop up Window user dapat memilih voucher yang tersedia. menggunakan data binding
+dengan cara kerja yang sama seperti pada Menu ke MainWindow perbedannya hanya promo tidak dapat di hapus, hanya bisa merubah promo yg akan dipakai.
 
 User dapat melihat Subtotal sebelum dikurangi dengan voucher.
 
