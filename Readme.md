@@ -1,11 +1,7 @@
-## Nama : Muhammad Husni Anas
-## Nim  : 19.11.2845
-
-
 ## Grab Eat
 penerapan MVC untuk memudahkan user dalam pemesanan item.
 
-### SCOPE & FUNCTIONALITIES
+## SCOPE & FUNCTIONALITIES
 - Pemesanan makanan.
 - Wadah dalam Keranjang pada class `KeranjangBelanja.cs`
 - Kalkulasi perhitungan jumlah Total pada class `Payment.cs`
@@ -147,3 +143,56 @@ class Payment
         }
     }
 ```
+
+## ScreenShot
+
+<p align="center" width="100%">
+ - MainWindow awal
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- MainWindow awal" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss1.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+ 
+ <p align="center" width="100%">
+ - Pop up Menu Window
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- Pop up Menu Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss2.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+
+<p align="center" width="100%">
+ - Get item
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- Get item" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss3.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+
+<p align="center" width="100%">
+ - Pop up Voucher Window
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- Pop up Voucher Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss4.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+
+<p align="center" width="100%">
+ - Get Voucher
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- Get Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss5.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+
+<p align="center" width="100%">
+ - View Total after get Item and Voucher 
+ </p>
+ <br>
+  <p align="center" width="100%">
+  <img alt="- View Total after get Item and Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss6.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+</p>
+
+
+by Muhammad Husni Anas 19.11.2845
