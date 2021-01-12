@@ -147,51 +147,51 @@ class Payment
 ## ScreenShot
 
 <p align="center" width="100%">
- - MainWindow awal
+ MainWindow awal
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- MainWindow awal" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss1.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="MainWindow awal" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss1.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
  
  <p align="center" width="100%">
- - Pop up Menu Window
+ Pop up Menu Window
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- Pop up Menu Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss2.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="Pop up Menu Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss2.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
 
 <p align="center" width="100%">
- - Get item
+ Get item
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- Get item" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss3.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="Get item" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss3.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
 
 <p align="center" width="100%">
- - Pop up Voucher Window
+ Pop up Voucher Window
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- Pop up Voucher Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss4.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="Pop up Voucher Window" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss4.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
 
 <p align="center" width="100%">
- - Get Voucher
+ Get Voucher
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- Get Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss5.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="Get Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss5.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
 
 <p align="center" width="100%">
- - View Total after get Item and Voucher 
+ View Total after get Item and Voucher 
  </p>
  <br>
   <p align="center" width="100%">
-  <img alt="- View Total after get Item and Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss6.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
+  <img alt="View Total after get Item and Voucher" src="https://raw.githubusercontent.com/naddbban/grabeat/master/grabeat/Screenshot/ss6.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </p>
 
 
